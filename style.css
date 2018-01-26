@@ -700,3 +700,7 @@
       width: 100% !important;
     }
   }
+
+.cv-container .cv-content {
+    padding: 2em 10%;
+}
