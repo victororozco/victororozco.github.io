@@ -562,7 +562,7 @@
     font-family: "Rasa", "Didot", "Hoefler Text", Garamond, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, serif;
     text-align: center;
     padding: 1em 0px 0.85em;
-    border-top: 1px solid #3B8579;
+    /* border-top: 1px solid #3B8579; */
     border-bottom: 3px solid #3B8579;
   }
   .cv-container #summary article {
@@ -662,6 +662,17 @@
     .cv-container .sidebar .portfolio .asset-description {
       display: block;
     }
+
+    .picture {
+      position: absolute;
+      border: 1px solid #333;
+      margin-left: 74%;
+      width: 10em;
+    }
+  
+    .picture img {
+      width: 10em;    
+    }
   }
   .cv-container .competency .competency-bar {
     margin: 0.5em 0px 0.75em;
@@ -698,5 +709,16 @@
     .cv-container article .article-headings,
     .cv-container article .article-body {
       width: 100% !important;
+    }
+  
+    .picture {
+      position: absolute;
+      border: 1px solid #333;
+      margin-left: 35%;
+      width: 6em;
+    }
+
+    .picture img {
+      width: 6em;    
     }
   }
